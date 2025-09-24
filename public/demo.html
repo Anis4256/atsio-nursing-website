@@ -1,0 +1,40 @@
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>eNews Ticker</title>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/freeps2/Ticker@main/ent-style.css">
+<script src="https://cdn.jsdelivr.net/gh/freeps2/Ticker@main/jquery-3.6.0.min.js"></script>
+<script src="https://cdn.jsdelivr.net/gh/freeps2/Ticker@main/jquery.easing.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+<script src="https://cdn.jsdelivr.net/gh/freeps2/Ticker@main/ent-script.min.js"></script>
+<title>breaking news Ticker</title>
+
+<section>
+    <h4>Scroll</h4>
+    <div id="newsTicker1"></div>
+
+</section>
+
+<script>
+    $(document).ready(function () {
+        var news = [{
+            "date": "June 8, 2023",
+            "prefix": "CNN: Sport",
+            "heading": "Alexis Mac Allister: Liverpool sign Brighton Argentina midfielder for £35m.",
+            "url": "https://"
+        }, {
+            "date": "June 8, 2023",
+            "prefix": "CNN: uk Sport",
+            "heading": "Alexis Mac Allister: Liverpool sign Brighton Argentina midfielder for £35m.",
+            "url": "https://"
+        }];
+
+        $("#newsTicker1").easyNewsTicker({
+            "animation": {
+                "effect": "scroll",
+            },
+            "data": news
+        });
+
+    });
+</script>

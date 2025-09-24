@@ -1,0 +1,21 @@
+{
+  "success": true,
+  "news": [
+    {
+      "id": 1,
+      "title": "Sanjay Bhokare Group of Institutions News Update",
+      "date": "2023-10-01",
+      "content": "Latest updates from the institution.",
+      "fullContent": "Detailed news content about recent events and achievements at Sanjay Bhokare Group of Institutions.",
+      "images": ["/News/News1.jpg"]
+    },
+    {
+      "id": 2,
+      "title": "Academic Achievements",
+      "date": "2023-09-15",
+      "content": "Students excel in various competitions.",
+      "fullContent": "Our students have won several awards in academic and extracurricular activities.",
+      "images": ["/News/News1.jpg"]
+    }
+  ]
+}

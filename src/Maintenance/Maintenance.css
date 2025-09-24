@@ -1,0 +1,7 @@
+@media (max-width: 516px) {
+    .maintenance img {
+        margin-top: 50px;
+        width: 140px;
+        height: 250px;
+    }
+}

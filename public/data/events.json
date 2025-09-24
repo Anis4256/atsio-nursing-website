@@ -1,0 +1,41 @@
+{
+  "success": true,
+  "events": [
+    {
+      "id": 1,
+      "title": "AIDS Awareness Program",
+      "date": "2023-11-01",
+      "content": "Event to raise awareness about AIDS.",
+      "fullContent": "A comprehensive program to educate students and community about AIDS prevention and awareness.",
+      "venue": "Main Auditorium",
+      "images": ["/src/Events/AIDS_Awareness/AIDS1.png", "/src/Events/AIDS_Awareness/AIDS2.png"]
+    },
+    {
+      "id": 2,
+      "title": "Fresher Party",
+      "date": "2023-09-20",
+      "content": "Welcome event for new students.",
+      "fullContent": "An exciting party to welcome freshmen to the institution.",
+      "venue": "Campus Ground",
+      "images": ["/src/Events/FresherParty/FP1.png", "/src/Events/FresherParty/FP2.png"]
+    },
+    {
+      "id": 3,
+      "title": "Mental Health Day",
+      "date": "2023-10-10",
+      "content": "Activities to promote mental health.",
+      "fullContent": "Various workshops and sessions on mental health awareness.",
+      "venue": "Conference Hall",
+      "images": ["/src/Events/MetalHealthDay/img1.png", "/src/Events/MetalHealthDay/MentalHealthDay.png"]
+    },
+    {
+      "id": 4,
+      "title": "Lamp Lighting Ceremony",
+      "date": "2023-12-01",
+      "content": "Traditional lamp lighting event.",
+      "fullContent": "A ceremonial event marking the beginning of the academic year.",
+      "venue": "Auditorium",
+      "images": ["/src/Events/LampLighting/LL1.png", "/src/Events/LampLighting/LL2.png"]
+    }
+  ]
+}

@@ -1,0 +1,152 @@
+/* Base styles for the news container */
+.news-container {
+    margin-top: 50px !important;
+    padding: 20px;
+    font-family: 'Roboto', sans-serif;
+    max-width: 1200px;
+    margin: 0 auto;
+    animation: fadeInUp 1s ease forwards;
+}
+
+/* Title styling */
+.section-title h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 2.5rem;
+    color: #cf481f;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-bottom: 5px;
+    animation: fadeInDown 1s ease forwards;
+}
+
+.section-title p {
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.2rem;
+    color: #5a3a2a;
+    margin-top: 0;
+    margin-bottom: 20px;
+    animation: fadeInDown 1s ease forwards;
+}
+
+/* Layout for articles */
+.articles {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 20px;
+    /* Space between articles */
+}
+
+/* Styling each article card */
+.article-card {
+    background-color: #fff;
+    border-radius: 12px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+    width: calc(33.333% - 20px);
+    /* Three cards per row */
+    overflow: hidden;
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease;
+    cursor: pointer;
+    animation: fadeIn 0.8s ease forwards;
+}
+
+/* Card hover effect */
+.article-card:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 12px 30px rgba(0, 0, 0, 0.2);
+    /* Slight hover effect */
+}
+
+/* Image styling for the cards */
+.article-img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-bottom: 3px solid #cf481f;
+    /* Border between image and text */
+    transition: transform 0.3s ease;
+}
+
+.article-card:hover .article-img {
+    transform: scale(1.05);
+}
+
+/* Title styling */
+.article-title {
+    font-size: 1.5rem;
+    font-weight: 700;
+    padding: 15px;
+    color: #5a3a2a;
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+    transition: color 0.3s ease;
+}
+
+.article-card:hover .article-title {
+    color: #cf481f;
+}
+
+/* Date styling */
+.article-date {
+    font-size: 1rem;
+    color: #888;
+    padding: 0 15px;
+    font-family: 'Roboto', sans-serif;
+}
+
+/* Content styling */
+.article-content {
+    font-size: 1rem;
+    color: #555;
+    padding: 0 15px 15px;
+    font-family: 'Roboto', sans-serif;
+}
+
+/* Media queries for responsiveness */
+@media (max-width: 1024px) {
+    .article-card {
+        width: calc(50% - 20px);
+        /* Two cards per row on medium screens */
+    }
+}
+
+@media (max-width: 768px) {
+    .article-card {
+        width: 100%;
+        /* One card per row on small screens */
+    }
+}
+
+/* Animations */
+@keyframes fadeInUp {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@keyframes fadeInDown {
+    from {
+        opacity: 0;
+        transform: translateY(-20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}

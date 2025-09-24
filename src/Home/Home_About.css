@@ -1,0 +1,178 @@
+/* Home_About.css */
+
+/* Base Section Styles */
+.about {
+    background-color: #f8f9fa;
+    color: #333;
+}
+
+.sectiontitle {
+    text-align: center;
+}
+
+.sectiontitle h2::after {
+    display: none;
+
+}
+
+
+
+.sectiontitle h2 {
+    font-size: 14px;
+    font-weight: 500;
+    padding: 0;
+    margin-top: 20px;
+    line-height: 1px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #aaaaaa;
+    font-family: "Poppins", sans-serif;
+    text-decoration: none;
+    border: none;
+}
+
+.sectiontitle p {
+    font-size: 36px;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-family: "Poppins", sans-serif;
+    color: #37423b;
+}
+
+/* Content Styles */
+.content {
+    font-size: 1.1rem;
+    line-height: 1.6;
+    color: #555;
+    text-align: left;
+    padding-top: 20px;
+}
+
+.content h3 {
+    font-size: 2.2rem;
+    font-weight: 600;
+    margin-bottom: 15px;
+}
+
+.content p {
+    margin-bottom: 20px;
+}
+
+.content .fst-italic {
+    font-style: italic;
+    color: #2980b9;
+}
+
+.content a {
+    color: #2980b9;
+    text-decoration: none;
+    font-weight: 600;
+    transition: color 0.3s ease-in-out;
+}
+
+.content a:hover {
+    color: #1abc9c;
+}
+
+/* About Image Styles */
+.about img {
+    max-width: 100%;
+    border-radius: 15px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    margin-bottom: 30px;
+    /* Add space below the image */
+}
+
+/* List Styles */
+.about ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+.about ul li {
+    margin-bottom: 15px;
+    font-size: 1.1rem;
+}
+
+.about ul li i {
+    color: #2ecc71;
+    margin-right: 10px;
+}
+
+/* Media Queries for Responsiveness */
+@media (max-width: 992px) {
+    .section-title h2 {
+        font-size: 2.5rem;
+    }
+
+    .section-title p {
+        font-size: 1.2rem;
+    }
+
+    .about .container {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+}
+
+@media (max-width: 768px) {
+    .section-title h2 {
+        font-size: 2.2rem;
+    }
+
+    .content {
+        font-size: 1rem;
+    }
+
+    .content h3 {
+        font-size: 1.8rem;
+    }
+
+    .content p {
+        font-size: 1rem;
+    }
+
+    .col-12 {
+        text-align: center;
+        /* Center the content */
+    }
+
+    .about img {
+        max-width: 90%;
+    }
+}
+
+@media (max-width: 576px) {
+    .section-title h2 {
+        font-size: 2rem;
+    }
+
+    .section-title p {
+        font-size: 1rem;
+    }
+
+    .content {
+        font-size: 0.9rem;
+    }
+
+    .content h3 {
+        font-size: 1.6rem;
+    }
+
+    .content ul li {
+        font-size: 1rem;
+    }
+
+    .content p {
+        font-size: 0.9rem;
+    }
+
+    .container {
+        padding: 0 15px;
+    }
+
+    .about img {
+        max-width: 100%;
+        margin-top: 20px;
+    }
+}

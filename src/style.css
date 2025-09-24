@@ -1,0 +1,250 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+.content-wrapper {
+    padding-top: 100px;
+    /* Adjust this based on your navbar height */
+}
+
+.section-title h2::after {
+    content: "";
+    width: 20%;
+    height: 1px;
+    display: inline-block;
+    background: linear-gradient(90deg, #d46d45, #f7a072);
+    margin: 4px 10px;
+}
+
+.section-title h2 {
+    font-size: 14px;
+    font-weight: 500;
+    padding: 0;
+    line-height: 1px;
+    margin-top: 40px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #aaaaaa;
+    font-family: "Poppins", sans-serif;
+}
+
+.section-title p {
+    margin: 0;
+    font-size: 36px;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-family: "Poppins", sans-serif;
+    color: #37423b;
+    text-shadow: 1px 1px 2px rgba(212, 109, 69, 0.7);
+}
+
+@media screen and (max-width: 540px) {
+    .section-title p {
+        font-size: 24px;
+    }
+
+    .section-title h2::after {
+        width: 90px;
+    }
+
+    #top {
+        margin-top: 100px !important;
+    }
+}
+
+/* Table styling */
+.table {
+    width: 100%;
+    margin-top: 20px;
+    background: linear-gradient(135deg, #fefefe, #f7f1e1);
+    border-collapse: separate;
+    border-spacing: 0 10px;
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.1);
+    border-radius: 12px;
+    overflow: hidden;
+    transition: box-shadow 0.3s ease;
+}
+
+.table:hover {
+    box-shadow: 0 12px 25px rgba(212, 109, 69, 0.4);
+}
+
+.table th,
+.table td {
+    padding: 15px;
+    text-align: center;
+    border: none;
+    font-weight: 600;
+    color: #444;
+    background: transparent;
+}
+
+.table th {
+    background-color: #d46d45;
+    color: #fff;
+    font-weight: 700;
+    letter-spacing: 1px;
+}
+
+.table tbody tr {
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(212, 109, 69, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    opacity: 0;
+    transform: translateX(-50px);
+    animation: slideIn 0.5s forwards;
+}
+
+.table tbody tr:nth-child(even) {
+    background: #f9f4ef;
+}
+
+.table tbody tr:hover {
+    transform: scale(1.03);
+    box-shadow: 0 8px 20px rgba(212, 109, 69, 0.3);
+}
+
+.table a {
+    text-decoration: none;
+    color: #fff;
+    background-color: #d46d45;
+    padding: 8px 12px;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+
+.table a:hover {
+    background-color: #a03e1a;
+}
+
+/* Hover effect on rows */
+.table tbody tr:hover {
+    background-color: #fef6f1;
+}
+
+/* Table responsive for small screens */
+@media (max-width: 768px) {
+    .table {
+        font-size: 14px;
+    }
+}
+
+/* TOP View */
+#top {
+    margin-top: 50px;
+    width: 100%;
+    height: 30vh;
+    background-color: #cf481f;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    border-radius: 0 0 20px 20px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+}
+
+#top:before {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+
+/*
+.toptext {
+    margin-top: 70px;
+} */
+
+#top h1 {
+    margin-top: 10px;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 56px;
+    color: #fff;
+    font-family: "Poppins", sans-serif;
+    text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.5);
+}
+
+#top h2 {
+    margin-top: 10px;
+    font-size: 15px;
+    color: #fff;
+    font-family: "Poppins", sans-serif;
+    text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.4);
+}
+
+#top li a {
+    color: inherit;
+    margin: 10px 0 0 0;
+    font-size: 17px;
+    text-decoration: none;
+}
+
+/* Faculty Start */
+.team-item img {
+    transition: .5s;
+}
+
+.team-item:hover img {
+    transform: scale(1.1);
+}
+
+/* Faculty End */
+
+/* Animations */
+@keyframes slideIn {
+    to {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+.fade-in-stagger > * {
+    opacity: 0;
+    transform: translateY(20px);
+    animation: fadeInUp 0.5s forwards;
+}
+
+.fade-in-stagger > *:nth-child(1) {
+    animation-delay: 0.1s;
+}
+
+.fade-in-stagger > *:nth-child(2) {
+    animation-delay: 0.2s;
+}
+
+.fade-in-stagger > *:nth-child(3) {
+    animation-delay: 0.3s;
+}
+
+.fade-in-stagger > *:nth-child(4) {
+    animation-delay: 0.4s;
+}
+
+.fade-in-stagger > *:nth-child(5) {
+    animation-delay: 0.5s;
+}
+
+@keyframes fadeInUp {
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+/* Global styles to remove underlines, borders, and shadows */
+* {
+  text-decoration: none !important;
+  border: none !important;
+  box-shadow: none !important;
+}
+a {
+  text-decoration: none !important;
+  color: inherit !important;
+}

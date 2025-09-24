@@ -1,0 +1,152 @@
+/* Course Section Styles */
+
+.container.course-section {
+  max-width: 900px;
+  margin: 40px auto;
+  padding: 20px;
+  background: #fff;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  font-family: 'Inter', sans-serif;
+  color: #333;
+  line-height: 1.6;
+  transition: box-shadow 0.3s ease;
+}
+
+.container.course-section:hover {
+  box-shadow: 0 6px 20px rgba(0,0,0,0.15);
+}
+
+.container.course-section h2 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  font-size: 2.2rem;
+  margin-bottom: 10px;
+  color: #cf481f;
+}
+
+.container.course-section p,
+.container.course-section strong {
+  font-size: 1.1rem;
+  margin-bottom: 15px;
+}
+
+.container.course-section ul,
+.container.course-section ol {
+  margin-left: 20px;
+  margin-bottom: 20px;
+}
+
+.container.course-section ul li,
+.container.course-section ol li {
+  margin-bottom: 10px;
+  font-size: 1rem;
+  position: relative;
+  padding-left: 25px;
+}
+
+.container.course-section ul li i,
+.container.course-section ol li i {
+  position: absolute;
+  left: 0;
+  top: 3px;
+  color: #cf481f;
+  font-size: 1.2rem;
+}
+
+.container.course-section table {
+  width: 100%;
+  border-collapse: separate;
+  border-spacing: 0 10px;
+  margin-top: 20px;
+  font-size: 1rem;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.container.course-section table thead tr {
+  background-color: #cf481f;
+  color: white;
+  font-weight: 600;
+}
+
+.container.course-section table th,
+.container.course-section table td {
+  padding: 12px 15px;
+  text-align: left;
+}
+
+.container.course-section table tbody tr {
+  background-color: #fff;
+  transition: background-color 0.3s ease;
+  cursor: default;
+}
+
+.container.course-section table tbody tr:hover {
+  background-color: #f9f1eb;
+}
+
+@media (max-width: 768px) {
+  .container.course-section {
+    margin: 20px 10px;
+    padding: 15px;
+  }
+
+  .container.course-section h2 {
+    font-size: 1.8rem;
+  }
+
+  .container.course-section p,
+  .container.course-section strong,
+  .container.course-section ul li,
+  .container.course-section ol li {
+    font-size: 1rem;
+  }
+
+  .container.course-section table th,
+  .container.course-section table td {
+    padding: 10px 8px;
+  }
+}
+
+/* Course Header Box UI Improvement */
+.course-header-box {
+  background: linear-gradient(135deg, #cf481f, #a63a17);
+  color: white;
+  padding: 40px 20px;
+  border-radius: 12px;
+  box-shadow: 0 6px 20px rgba(0,0,0,0.25);
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.course-header-box h1 {
+  font-size: 3rem;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+
+.course-header-box h2 {
+  font-size: 1.25rem;
+  font-weight: 500;
+  max-width: 700px;
+  margin: 0 auto 20px auto;
+  line-height: 1.4;
+}
+
+.course-header-box .breadcrumb {
+  justify-content: center;
+  font-size: 1rem;
+  color: #dcdcdc;
+}
+
+.course-header-box .breadcrumb a {
+  color: #dcdcdc;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.course-header-box .breadcrumb a:hover {
+  color: #fff;
+}
