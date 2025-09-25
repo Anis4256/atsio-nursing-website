@@ -1,70 +1,78 @@
-# Getting Started with Create React App
+<div align="center">
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# 🌟 Welcome to Anis Sikandar Mulani's Profile 🌟
 
-## Available Scripts
+<p><em>Passionate about building intelligent systems and scalable applications. Skilled in Machine Learning, Deep Learning, and AI solutions, along with full-stack development using modern frameworks. Focused on turning ideas into impactful, real-world products.</em></p>
 
-In the project directory, you can run:
+<img src="https://img.shields.io/badge/Status-Available_for_collaboration-brightgreen" alt="Status" />
+<img src="https://img.shields.io/badge/Focus-Web_Development-blue" alt="Focus" />
 
-### `npm start`
+</div>
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+<hr>
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## 🏆 GitHub Trophies
 
-### `npm test`
+<!-- ⚠️ Important: Replace 'Anis4256' with your actual GitHub username in the URL below -->
+<p align="center">
+  <img src="https://github-profile-trophy.vercel.app/?username=Anis4256&theme=juicyfresh&column=7&margin-w=15&margin-h=15" />
+</p>
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## 📊 GitHub Stats
 
-### `npm run build`
+<!-- ⚠️ Important: Replace 'Anis4256' with your actual GitHub username in the URL below -->
+<div align="center">
+  <img height="180em" src="https://github-readme-stats.vercel.app/api?username=Anis4256&show_icons=true&theme=radical&include_all_commits=true&count_private=true"/>
+</div>
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## 🔝 Most Used Languages
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+<!-- ⚠️ Important: Replace 'Anis4256' with your actual GitHub username in the URL below -->
+<div align="center">
+  <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Anis4256&layout=compact&langs_count=10&theme=radical"/>
+</div>
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## 💻 Tech Stack
 
-### `npm run eject`
+<div align="center">
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+### 🎨 Frontend
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+<img src="https://img.shields.io/badge/-React-05122A?style=for-the-badge&color=ff69b4"> <img src="https://img.shields.io/badge/-HTML5-05122A?style=for-the-badge&color=ff69b4"> <img src="https://img.shields.io/badge/-CSS3-05122A?style=for-the-badge&color=ff69b4">
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+### ⚙️ Backend
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+<img src="https://img.shields.io/badge/-Node.js-05122A?style=for-the-badge&color=4169e1"> <img src="https://img.shields.io/badge/-Express-05122A?style=for-the-badge&color=4169e1">
 
-## Learn More
+### 🧠 AI/ML
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+<img src="https://img.shields.io/badge/-TensorFlow-05122A?style=for-the-badge&color=00CED1"> <img src="https://img.shields.io/badge/-OpenCV-05122A?style=for-the-badge&color=00CED1"> <img src="https://img.shields.io/badge/-Pandas-05122A?style=for-the-badge&color=00CED1"> <img src="https://img.shields.io/badge/-NumPy-05122A?style=for-the-badge&color=00CED1"> <img src="https://img.shields.io/badge/-Scikit-Learn-05122A?style=for-the-badge&color=00CED1"> <img src="https://img.shields.io/badge/-PyTorch-05122A?style=for-the-badge&color=00CED1">
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+</div>
 
-### Code Splitting
+## 🌐 Socials
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+<div align="center">
 
-### Analyzing the Bundle Size
+<a href="https://github.com/Anis4256"><img src="https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white&color=9a6bdf"></a> 
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+</div>
 
-### Making a Progressive Web App
+## 📫 How to reach me
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+<div align="center">
 
-### Advanced Configuration
+**Email:** anis.mulani033@gmail.com
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+</div>
 
-### Deployment
+<div align="center">
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+<!-- ⚠️ Important: Replace 'Anis4256' with your actual GitHub username in the URLs below -->
+<img src="https://komarev.com/ghpvc/?username=Anis4256&style=for-the-badge&color=blueviolet" alt="Profile views"/>
 
-### `npm run build` fails to minify
+<img src="https://img.shields.io/github/followers/Anis4256?style=for-the-badge&color=ff69b4" alt="Followers"/>
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+<p>🌈 <i>Let's connect and build amazing things together!</i> 🚀</p>
+
+</div>
